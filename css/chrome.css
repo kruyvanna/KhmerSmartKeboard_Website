@@ -7,7 +7,7 @@ body {
 	margin      : 0px;
 	min-width   : 1080px;
 	padding     : 0px;
-	font-family : "Caecilia-Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-family: "Metal-Chhor", "Caecilia-Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;	
 	overflow-x  : hidden;
 }
 
@@ -35,7 +35,7 @@ p {
 }
 
 p, ul {
-	font-family      : "Caecilia-Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-family      : "Metal-Chhor", "Caecilia-Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	font-weight      : 200;
 	font-style       : normal;
 	list-style       : none;
@@ -63,10 +63,12 @@ h1 {
 }
 
 h2 {
-	font-family : "Caecilia-RomanSC", Verdana, sans-serif;
+	font-family : "Metal-Chhor", "Caecilia-RomanSC", Verdana, sans-serif;
 	font-size   : 30px; 
 	font-weight : bold;
 	line-height : 80px;
+	color: #ddd;
+	text-shadow: 0px 1px 5px#222;
 }
 
 h3 {
@@ -91,7 +93,7 @@ section {
 	width      : 100%;
 	position   : absolute;
 	overflow   : hidden;
-	visibility : hidden;
+	visibility : hidden;	
 }
 
 section .story {
