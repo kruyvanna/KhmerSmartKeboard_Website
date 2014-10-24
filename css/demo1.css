@@ -8,7 +8,7 @@
  * Intro Panel *
  ***************/
 #story-header {
-	color : #1CA2F7;
+	color: #1CA2F7;
 }
 
 #story-header #logo {
@@ -21,15 +21,17 @@
 	font-size: 40px;
 	font-family: 'Moulpali', cursive;
 	margin-bottom: 25px;
+	/* color: #1CA2F7; */
 }
 
-#story-header .story {
-	width         : 850px;
+#story-header .story {	
 	padding-right : 0px;
+	position: relative;
+	width: 850px;
 }
 
 #story-header p {
-	width     : 800px;
+	width: 100%;
 	font-size : 16px;
 	color: #ddd;
 	text-shadow: 0px 1px 5px#222;
