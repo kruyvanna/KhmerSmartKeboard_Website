@@ -95,6 +95,7 @@ section {
 	position   : absolute;
 	overflow   : hidden;
 	visibility : hidden;	
+	height: 62%;
 }
 
 section .story {
