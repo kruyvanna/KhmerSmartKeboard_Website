@@ -3,6 +3,7 @@
 ********/
 @font-face { font-family: Metal-Chhor; src: url('DH-Metal-Chhor.ttf'); } 
 @font-face { font-family: Tlok; src: url('Tlok.ttf'); } 
+@font-face { font-family: Chenla; src: url('Chenla.ttf'); } 
 
 
 /***************
@@ -238,8 +239,13 @@
 #appstore-and-fb {
     position: absolute;
     right: 0;
-    width: 100px;
-    /* top: 300px; */
+    width: 150px;
+    bottom: 200px;
+}
+
+#appstore-and-fb-footer {
+    width: 150px;
+    margin-top: 70px;
 }
 
 .button {
@@ -249,17 +255,23 @@
     border-radius: 4px;
     margin-top: 6px;
     color: #FFF;
-    text-shadow: none;
+    /* text-shadow: 0 0 2px #D3D3D3; */
     cursor: pointer;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     display: block;
+    font-family: "Chenla";
+    font-size: 1;
+    font-size: larger;
 }
 
-.button:hover {
-    color: #1CA2F7;
-    -webkit-transform: scale(1.1);
+.button:hover {    
+    -webkit-transform: scale(1.2);
     text-decoration: none;
+}
+
+.call-to-action {
+    color: #FF3030;
 }
 
 .play {
