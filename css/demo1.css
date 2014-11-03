@@ -6,6 +6,25 @@
 @font-face { font-family: Chenla; src: url('Chenla.ttf'); } 
 
 
+.center {
+    text-align: center;
+}
+
+.white {
+    /* color: #DDD; */
+}
+
+.brand-above {
+    margin-bottom: 20px;
+    font-family: "Moulpali", "Caecilia-RomanSC", Verdana, sans-serif !important;
+}
+
+.brand-below {
+    font-family: "Moulpali", "Caecilia-RomanSC", Verdana, sans-serif !important;
+    font-size: medium !important;
+    margin-top: 40px;
+}
+
 /***************
  * Intro Panel *
  ***************/
@@ -17,8 +36,7 @@
 	margin : 20px 0 50px 0;
 }
 
-#story-header h2 {
-	font-family: "Caecilia-Roman", Verdana, sans-serif;
+#story-header h2 {	
 	text-shadow: 1px 1px 5px #222;
 	font-size: 40px;
 	font-family: 'Moulpali', cursive;
@@ -39,7 +57,7 @@
 #story-header p {
 	width: 100%;
 	font-size : 16px;
-	color: #ddd;
+	color: #DDD;
 	text-shadow: 0px 1px 5px#222;
 	font-family: "Metal-Chhor";
 	font-size: 24px;
@@ -290,7 +308,14 @@
 .play-button-container {
     position: absolute;
     left: 45%;
-    top: 35%;
+    top: 35%;    
+}
+
+.play-button-container-campaign {
+    position: absolute;
+    left: 45%;
+    top: 55%;
+    z-index: 1000;
 }
 
 #exit-button {
@@ -301,4 +326,20 @@
     height: 50px;    
     border-radius: 50%;
     background: none;
+}
+
+.rewards {
+    position: absolute;
+    right: 50px;
+    font-size: larger;
+}
+
+.reward {
+    margin-top: 10px;
+}
+
+.rewards-logo {
+    position: absolute;
+    left: 200px;
+    bottom: 100px;
 }
