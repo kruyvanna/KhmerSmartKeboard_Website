@@ -343,3 +343,9 @@
     left: 200px;
     bottom: 100px;
 }
+
+#sponsors {
+    position: absolute;
+    left: 160px;
+    bottom: 50px;
+}
